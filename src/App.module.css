@@ -1,0 +1,46 @@
+.background {
+  text-align: center;
+  background-color: white;
+  height: 100vh;
+}
+.background > img {
+  border-radius: 100px;
+}
+.container {
+  width: 130px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.container > a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.container > a > span {
+  font-size: large;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.containerProjects{
+  border: 1px solid black;
+  margin-left: 10px;
+}
+.containerProjects > h3 {
+  margin: 10px;
+}
+.techs {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  flex-wrap: wrap;
+}
+
+.footer{
+  margin-top: 100px;
+}
