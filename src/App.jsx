@@ -43,7 +43,7 @@ function App() {
           </div>
         </div>
         <div className={styles.containerProjects}>
-          <h3>Game of Trivia</h3>
+          <h3>TrybeWallet</h3>
           <a href='https://project-trybewallet-rouge.vercel.app/' target='_blank'>
             <img width='200px' src='/trybewallet.png' alt='JogoTrivia' />
           </a>
