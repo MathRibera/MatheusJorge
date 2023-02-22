@@ -7,13 +7,16 @@ function App() {
       <h4>Web Development Student</h4>
       <div>
         <div className={styles.container}>
-          <a href='https://www.linkedin.com/in/matheus-jorge-0366631a4/'>
+          <a
+            href='https://www.linkedin.com/in/matheus-jorge-0366631a4/'
+            target='_blank'
+          >
             <img width='40px' src='/linkedin.png' alt='' />
             <span>Linkedin</span>
           </a>
         </div>
         <div className={styles.container}>
-          <a href='https://github.com/MathRibera'>
+          <a href='https://github.com/MathRibera' target='_blank'>
             <img width='40px' src='/github.png' alt='' />
             <span>GitHub</span>
           </a>
@@ -44,7 +47,10 @@ function App() {
         </div>
         <div className={styles.containerProjects}>
           <h3>TrybeWallet</h3>
-          <a href='https://project-trybewallet-rouge.vercel.app/' target='_blank'>
+          <a
+            href='https://project-trybewallet-rouge.vercel.app/'
+            target='_blank'
+          >
             <img width='200px' src='/trybewallet.png' alt='JogoTrivia' />
           </a>
           <h3>Techs</h3>
