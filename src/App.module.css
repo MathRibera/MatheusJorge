@@ -1,10 +1,20 @@
 .background {
   text-align: center;
-  background-color: white;
+  background-color: #6cbdb5;
   height: 100vh;
+  overflow: hidden;
 }
-.background > img {
-  border-radius: 100px;
+.imageProfile {
+ padding-top: 20px;
+}
+.imageProfile > img {
+ border-radius: 100px;
+}
+.nome {
+  margin: 20px;
+}
+.projetos{
+  margin: 20px;
 }
 .container {
   width: 130px;
@@ -28,6 +38,7 @@
   flex-wrap: wrap;
 }
 .containerProjects{
+  background-color: white;
   border: 1px solid black;
   margin-left: 10px;
 }
@@ -43,4 +54,7 @@
 
 .footer{
   margin-top: 100px;
+}
+#root {
+  background-color: black;
 }

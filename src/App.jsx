@@ -2,9 +2,13 @@ import styles from './App.module.css';
 function App() {
   return (
     <div className={styles.background}>
-      <img src='/maxresdefault.jpg' alt='perfil' width='200px' height='200px' />
-      <h1>Matheus Jorge</h1>
-      <h4>Web Development Student</h4>
+      <div className={styles.imageProfile}>
+        <img src='/maxresdefault.jpg' alt='perfil' width='200px' height='200px' />
+      </div>
+      <div className={styles.nome}>
+        <h1>Matheus Jorge</h1>
+        <h4>Web Development Student</h4>
+      </div>
       <div>
         <div className={styles.container}>
           <a
@@ -22,7 +26,9 @@ function App() {
           </a>
         </div>
       </div>
-      <h1>My Projects</h1>
+      <div className={styles.projetos}>
+        <h1>My Projects</h1>
+      </div>
       <div className={styles.projects}>
         <div className={styles.containerProjects}>
           <h3>Game of Trivia</h3>
