@@ -1,0 +1,42 @@
+a:visited{
+  color: black;
+  text-decoration: none;
+}
+.projetos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.trivia{
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+.trivia > a > img{
+  width: 300px;
+}
+.techs {
+  display: flex;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.trybewallet{
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+.trybewallet > a > img{
+  width: 300px;
+}
+.receitas{
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+.receitas > a > img{
+  width: 300px;
+}

@@ -1,0 +1,26 @@
+.container-perfil {
+  align-items: center;
+  display: flex;
+  height: 336px;
+  justify-content: center;
+  width: 99,5vw;
+  color: white;
+  background-color:#4f504f;
+}
+.perfil{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.perfil > img {
+  border-radius: 30px;
+}
+
+.sobre-mim{
+  margin-left: 30px;
+  width: 60%;
+}
+.bio {
+  height: 195px;
+}
